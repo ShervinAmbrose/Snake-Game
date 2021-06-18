@@ -201,7 +201,7 @@ def mainScreen():
     titleFont = pygame.font.SysFont('comicsansms', 30, 0, 1)
     while running:
         screen.fill((0, 0, 0))
-        titleLabel = titleFont.render('Press SPACE to continue...', 1, (255, 255, 255))
+        titleLabel = titleFont.render('Press SPACE to Start...', 1, (255, 255, 255))
         screen.blit(titleLabel, (int(screenL / 2 - titleLabel.get_width() / 2), int(screenB / 2)))
         pygame.display.update()
         for event in pygame.event.get():
